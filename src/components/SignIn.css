@@ -1,6 +1,6 @@
 .form__wrapper {
   width: 400px;
-  min-height: 400px;
+  min-height: 420px;
   background-color: #fff;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   margin: 25px;
@@ -20,10 +20,6 @@
   color: #fff;
 }
 
-.form-label {
-  display: block;
-}
-
 .form__user {
   margin-left: 20px;
   margin-top: 20px;
@@ -31,6 +27,7 @@
 }
 
 .form-label {
+  display: block;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 17px;
@@ -72,4 +69,8 @@
   background-color: rgb(226, 224, 224);
   color: #fff;
   cursor: pointer;
+}
+
+i {
+  color: red;
 }
