@@ -1,23 +1,18 @@
 .form__wrapper {
-  width: 400px;
-  height: 420px;
+  width: 700px;
+  min-height: 520px;
   background-color: #fff;
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
   margin: 25px;
+  padding-bottom: 40px;
 }
 
 .form__header {
-  background-color: #008da1;
+  background-color: #2e8cee;
   width: 100%;
   height: 62px;
   display: flex;
   align-items: center;
-}
-
-.header-title {
-  margin-left: 20px;
-  text-transform: uppercase;
-  color: #fff;
 }
 
 .form__user {
@@ -26,51 +21,32 @@
   margin-right: 20px;
 }
 
-.form-label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-  font-size: 17px;
-  color: black;
-  text-transform: uppercase;
+.formRight {
+  width: 60%;
 }
 
-.form__user-input {
+select {
   width: 100%;
   padding: 10px 10px;
 }
 
-.label-checkbox {
-  font-weight: normal;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.308);
-}
-
-.form__user-checkbox {
-  margin-right: 10px;
-}
-
-.submit-btn {
+.submitBtn {
   margin-right: 8px;
-  padding: 10px 40px;
+  padding: 10px 90px;
   border: none;
   font-weight: bold;
   font-size: 17px;
   color: #fff;
-  background-color: #be1371;
+  background-color: #de4438;
   cursor: pointer;
 }
 
-.forgot-btn {
-  padding: 10px 25px;
+.forgotBtn {
+  padding: 10px 115px;
   border: none;
   font-weight: bold;
   font-size: 17px;
   background-color: rgb(226, 224, 224);
   color: #fff;
   cursor: pointer;
-}
-
-i {
-  color: red;
 }

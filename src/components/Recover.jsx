@@ -37,7 +37,7 @@ const Recover = () => {
                     </div>
                     <div className="form__user">
                         <button type="submit" className={styles.submitBtn}>Send</button>
-                        <button className="forgot-btn">Forgot Password?</button>
+                        <button className={styles.forgotBtn}>Sign up</button>
                     </div>
                     <div className="form__user">Разів відправлено: {submitCount}</div>
                     </form>

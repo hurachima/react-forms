@@ -2,7 +2,7 @@ import React from "react";
 
 import { useForm } from "react-hook-form";
 
-import './SignIn.css';
+import'./SignIn.css';
 
 const SignIn = () => {
     const {
@@ -52,7 +52,7 @@ const SignIn = () => {
                         <label htmlFor="" className="label-checkbox">
                         <input type="checkbox" className="form__user-checkbox" 
                         
-                        {...register('checkbox',{required:true})}
+                        {...register('checkbox', {required:false})}
                         />
                             Remember Me
                         </label>
