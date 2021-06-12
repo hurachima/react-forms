@@ -69,7 +69,7 @@ const SignUp = () => {
                         />
                         <span>Female</span>
 
-                        {errors.radio && <i>Виберіть варіант</i>}
+                        {errors.gender && <i>Виберіть варіант</i>}
                     </div>
 
                     <div className="form__user">
